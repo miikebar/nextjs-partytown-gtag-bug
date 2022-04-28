@@ -4,7 +4,7 @@ import { Menu } from "../components/Menu";
 const Contact: NextPage = () => {
   return (
     <div>
-      <div>Contact page</div>
+      <div>Contact page (Partytown)</div>
       <Menu />
     </div>
   );
