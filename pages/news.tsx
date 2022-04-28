@@ -1,13 +1,13 @@
 import { NextPage } from "next";
 import { Menu } from "../components/Menu";
 
-const Home: NextPage = () => {
+const News: NextPage = () => {
   return (
     <div>
-      <div>Home page</div>
+      <div>News page</div>
       <Menu />
     </div>
   );
 };
 
-export default Home;
+export default News;
