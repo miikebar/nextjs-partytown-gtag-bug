@@ -11,7 +11,7 @@ export default function Document() {
               partytown = {
                 lib: "/_next/static/~partytown/",
                 debug: true,
-                forward: ["dataLayer.push"]
+                forward: ["dataLayer.push", "gtag"]
               };
             `,
           }}
