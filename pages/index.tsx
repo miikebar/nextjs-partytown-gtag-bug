@@ -1,12 +1,18 @@
 import { NextPage } from "next";
+import Head from "next/head";
 import { Menu } from "../components/Menu";
 
 const Home: NextPage = () => {
   return (
-    <div>
-      <div>Home page (Partytown)</div>
-      <Menu />
-    </div>
+    <>
+      <Head>
+        <title>Home page (Partytown)</title>
+      </Head>
+      <div>
+        <div>Home page (Partytown)</div>
+        <Menu />
+      </div>
+    </>
   );
 };
 
